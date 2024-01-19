@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FC14DB62B5AF8BF0011961F /* Smart_DartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC14DB52B5AF8BF0011961F /* Smart_DartApp.swift */; };
+		5FC14DB82B5AF8BF0011961F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC14DB72B5AF8BF0011961F /* ContentView.swift */; };
+		5FC14DBA2B5AF8BF0011961F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC14DB92B5AF8BF0011961F /* Assets.xcassets */; };
+		5FC14DBD2B5AF8BF0011961F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC14DBC2B5AF8BF0011961F /* Preview Assets.xcassets */; };
+		5FC14DC82B5AF8BF0011961F /* Smart_DartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC14DC72B5AF8BF0011961F /* Smart_DartTests.swift */; };
+		5FC14DD22B5AF8BF0011961F /* Smart_DartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC14DD12B5AF8BF0011961F /* Smart_DartUITests.swift */; };
+		5FC14DD42B5AF8BF0011961F /* Smart_DartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC14DD32B5AF8BF0011961F /* Smart_DartUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FC14DC42B5AF8BF0011961F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FC14DAA2B5AF8BF0011961F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FC14DB12B5AF8BF0011961F;
+			remoteInfo = "Smart Dart";
+		};
+		5FC14DCE2B5AF8BF0011961F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FC14DAA2B5AF8BF0011961F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FC14DB12B5AF8BF0011961F;
+			remoteInfo = "Smart Dart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FC14DB22B5AF8BF0011961F /* Smart Dart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Dart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC14DB52B5AF8BF0011961F /* Smart_DartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_DartApp.swift; sourceTree = "<group>"; };
+		5FC14DB72B5AF8BF0011961F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5FC14DB92B5AF8BF0011961F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FC14DBC2B5AF8BF0011961F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FC14DBE2B5AF8BF0011961F /* Smart_Dart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Smart_Dart.entitlements; sourceTree = "<group>"; };
+		5FC14DC32B5AF8BF0011961F /* Smart DartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart DartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC14DC72B5AF8BF0011961F /* Smart_DartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_DartTests.swift; sourceTree = "<group>"; };
+		5FC14DCD2B5AF8BF0011961F /* Smart DartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart DartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC14DD12B5AF8BF0011961F /* Smart_DartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_DartUITests.swift; sourceTree = "<group>"; };
+		5FC14DD32B5AF8BF0011961F /* Smart_DartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_DartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FC14DAF2B5AF8BF0011961F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC14DC02B5AF8BF0011961F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC14DCA2B5AF8BF0011961F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FC14DA92B5AF8BF0011961F = {
+			isa = PBXGroup;
+			children = (
+				5FC14DB42B5AF8BF0011961F /* Smart Dart */,
+				5FC14DC62B5AF8BF0011961F /* Smart DartTests */,
+				5FC14DD02B5AF8BF0011961F /* Smart DartUITests */,
+				5FC14DB32B5AF8BF0011961F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FC14DB32B5AF8BF0011961F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FC14DB22B5AF8BF0011961F /* Smart Dart.app */,
+				5FC14DC32B5AF8BF0011961F /* Smart DartTests.xctest */,
+				5FC14DCD2B5AF8BF0011961F /* Smart DartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FC14DB42B5AF8BF0011961F /* Smart Dart */ = {
+			isa = PBXGroup;
+			children = (
+				5FC14DB52B5AF8BF0011961F /* Smart_DartApp.swift */,
+				5FC14DB72B5AF8BF0011961F /* ContentView.swift */,
+				5FC14DB92B5AF8BF0011961F /* Assets.xcassets */,
+				5FC14DBE2B5AF8BF0011961F /* Smart_Dart.entitlements */,
+				5FC14DBB2B5AF8BF0011961F /* Preview Content */,
+			);
+			path = "Smart Dart";
+			sourceTree = "<group>";
+		};
+		5FC14DBB2B5AF8BF0011961F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5FC14DBC2B5AF8BF0011961F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FC14DC62B5AF8BF0011961F /* Smart DartTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FC14DC72B5AF8BF0011961F /* Smart_DartTests.swift */,
+			);
+			path = "Smart DartTests";
+			sourceTree = "<group>";
+		};
+		5FC14DD02B5AF8BF0011961F /* Smart DartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FC14DD12B5AF8BF0011961F /* Smart_DartUITests.swift */,
+				5FC14DD32B5AF8BF0011961F /* Smart_DartUITestsLaunchTests.swift */,
+			);
+			path = "Smart DartUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FC14DB12B5AF8BF0011961F /* Smart Dart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC14DD72B5AF8BF0011961F /* Build configuration list for PBXNativeTarget "Smart Dart" */;
+			buildPhases = (
+				5FC14DAE2B5AF8BF0011961F /* Sources */,
+				5FC14DAF2B5AF8BF0011961F /* Frameworks */,
+				5FC14DB02B5AF8BF0011961F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Dart";
+			productName = "Smart Dart";
+			productReference = 5FC14DB22B5AF8BF0011961F /* Smart Dart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FC14DC22B5AF8BF0011961F /* Smart DartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC14DDA2B5AF8BF0011961F /* Build configuration list for PBXNativeTarget "Smart DartTests" */;
+			buildPhases = (
+				5FC14DBF2B5AF8BF0011961F /* Sources */,
+				5FC14DC02B5AF8BF0011961F /* Frameworks */,
+				5FC14DC12B5AF8BF0011961F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FC14DC52B5AF8BF0011961F /* PBXTargetDependency */,
+			);
+			name = "Smart DartTests";
+			productName = "Smart DartTests";
+			productReference = 5FC14DC32B5AF8BF0011961F /* Smart DartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FC14DCC2B5AF8BF0011961F /* Smart DartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC14DDD2B5AF8BF0011961F /* Build configuration list for PBXNativeTarget "Smart DartUITests" */;
+			buildPhases = (
+				5FC14DC92B5AF8BF0011961F /* Sources */,
+				5FC14DCA2B5AF8BF0011961F /* Frameworks */,
+				5FC14DCB2B5AF8BF0011961F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FC14DCF2B5AF8BF0011961F /* PBXTargetDependency */,
+			);
+			name = "Smart DartUITests";
+			productName = "Smart DartUITests";
+			productReference = 5FC14DCD2B5AF8BF0011961F /* Smart DartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FC14DAA2B5AF8BF0011961F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5FC14DB12B5AF8BF0011961F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5FC14DC22B5AF8BF0011961F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5FC14DB12B5AF8BF0011961F;
+					};
+					5FC14DCC2B5AF8BF0011961F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5FC14DB12B5AF8BF0011961F;
+					};
+				};
+			};
+			buildConfigurationList = 5FC14DAD2B5AF8BF0011961F /* Build configuration list for PBXProject "Smart Dart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FC14DA92B5AF8BF0011961F;
+			productRefGroup = 5FC14DB32B5AF8BF0011961F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FC14DB12B5AF8BF0011961F /* Smart Dart */,
+				5FC14DC22B5AF8BF0011961F /* Smart DartTests */,
+				5FC14DCC2B5AF8BF0011961F /* Smart DartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FC14DB02B5AF8BF0011961F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC14DBD2B5AF8BF0011961F /* Preview Assets.xcassets in Resources */,
+				5FC14DBA2B5AF8BF0011961F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC14DC12B5AF8BF0011961F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC14DCB2B5AF8BF0011961F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FC14DAE2B5AF8BF0011961F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC14DB82B5AF8BF0011961F /* ContentView.swift in Sources */,
+				5FC14DB62B5AF8BF0011961F /* Smart_DartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC14DBF2B5AF8BF0011961F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC14DC82B5AF8BF0011961F /* Smart_DartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC14DC92B5AF8BF0011961F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC14DD22B5AF8BF0011961F /* Smart_DartUITests.swift in Sources */,
+				5FC14DD42B5AF8BF0011961F /* Smart_DartUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FC14DC52B5AF8BF0011961F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FC14DB12B5AF8BF0011961F /* Smart Dart */;
+			targetProxy = 5FC14DC42B5AF8BF0011961F /* PBXContainerItemProxy */;
+		};
+		5FC14DCF2B5AF8BF0011961F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FC14DB12B5AF8BF0011961F /* Smart Dart */;
+			targetProxy = 5FC14DCE2B5AF8BF0011961F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5FC14DD52B5AF8BF0011961F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FC14DD62B5AF8BF0011961F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5FC14DD82B5AF8BF0011961F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Smart Dart/Smart_Dart.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart Dart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Liu.Smart-Dart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5FC14DD92B5AF8BF0011961F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Smart Dart/Smart_Dart.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart Dart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Liu.Smart-Dart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5FC14DDB2B5AF8BF0011961F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Liu.Smart-DartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Dart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Dart";
+			};
+			name = Debug;
+		};
+		5FC14DDC2B5AF8BF0011961F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Liu.Smart-DartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Dart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Dart";
+			};
+			name = Release;
+		};
+		5FC14DDE2B5AF8BF0011961F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Liu.Smart-DartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Smart Dart";
+			};
+			name = Debug;
+		};
+		5FC14DDF2B5AF8BF0011961F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Liu.Smart-DartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Smart Dart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FC14DAD2B5AF8BF0011961F /* Build configuration list for PBXProject "Smart Dart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC14DD52B5AF8BF0011961F /* Debug */,
+				5FC14DD62B5AF8BF0011961F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC14DD72B5AF8BF0011961F /* Build configuration list for PBXNativeTarget "Smart Dart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC14DD82B5AF8BF0011961F /* Debug */,
+				5FC14DD92B5AF8BF0011961F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC14DDA2B5AF8BF0011961F /* Build configuration list for PBXNativeTarget "Smart DartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC14DDB2B5AF8BF0011961F /* Debug */,
+				5FC14DDC2B5AF8BF0011961F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC14DDD2B5AF8BF0011961F /* Build configuration list for PBXNativeTarget "Smart DartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC14DDE2B5AF8BF0011961F /* Debug */,
+				5FC14DDF2B5AF8BF0011961F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FC14DAA2B5AF8BF0011961F /* Project object */;
+}

@@ -1,0 +1,112 @@
+# Xcode
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Xcode files
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+xcuserdata
+DerivedData/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Cartfile.resolved
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Code Injection
+injectionforxcode/
+
+# User interface state
+*.swp
+*~
+*.lock
+*.bak
+*.orig
+*.swp
+*.swo
+*.tmp
+*.temp
+*.o
+*.obj
+*.pyc
+*.pyo
+*.rbc
+*.class
+*.m~
+*.h~
+*.pch
+*.pch~
+*.sh~
+*.gch
+*.swp
+*.swo
+*.tmp
+*.temp
+*.o
+*.obj
+*.pyc
+*.pyo
+*.rbc
+*.class
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# OS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Swift Package Manager
+.build/
+
+# Package.resolved file created by SPM
+Package.resolved
